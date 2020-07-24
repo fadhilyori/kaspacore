@@ -1,0 +1,3 @@
+package org.mataelang.kaspacoresystem.models
+
+case class EventObj(ts: String, company: String, device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer, second: Integer, milisecond: Long, protocol: String, ip_type: String, src_mac: String, dest_mac: String, src_ip: String, dest_ip: String, src_port: Integer, dest_port: Integer, alert_msg: String, classification: Integer, priority: Integer, sig_id: Integer, sig_gen: Integer, sig_rev: Integer, src_country: String, src_region: String, src_city: String, dest_country: String, dest_region: String, dest_city: String ) extends Serializable
